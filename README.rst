@@ -13,8 +13,16 @@ Caveats
 Installation
 ============
 
+::
+
+   $ TODO
+
 Usage
 =====
+
+::
+
+   require_once 'drylib.php';
 
 Reference
 =========
