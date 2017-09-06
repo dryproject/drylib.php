@@ -1,0 +1,13 @@
+# https://docs.travis-ci.com/user/languages/php
+language: php
+sudo: false
+php:
+  - 7.0
+  - 7.1
+  - hhvm
+matrix:
+  fast_finish: true
+  allow_failures:
+    - php: hhvm
+script:
+  - php test.php
