@@ -1,0 +1,27 @@
+{
+  "name": "dryproject/drylib",
+  "description": "DRYlib for PHP 7.1+.",
+  "type": "library",
+  "keywords": ["polyglot"],
+  "homepage": "https://github.com/dryproject/drylib.php",
+  "license": "Unlicense",
+  "authors": [
+    {
+      "name": "Arto Bendiken",
+      "email": "arto@dryproject.org",
+      "homepage": "http://ar.to",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/dryproject/drylib.php/issues",
+    "source": "https://github.com/dryproject/drylib.php",
+    "docs": "http://drylib.org"
+  },
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "files": ["drylib.php"]
+  }
+}
